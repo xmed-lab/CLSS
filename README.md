@@ -3,7 +3,7 @@
 
 
 
-This is the implementation of CLSS for the paper ["Semi-Supervised Contrastive Learning for Deep Regression with Ordinal Rankings from Spectral Seriation"](https://openreview.net/forum?id=ij3svnPLzG).
+This is the implementation of CLSS for the paper accepted in NeurIPS 2023 ["Semi-Supervised Contrastive Learning for Deep Regression with Ordinal Rankings from Spectral Seriation"](https://openreview.net/forum?id=ij3svnPLzG).
 
 ![CLSS](neurips-semireg-23.png)
 
