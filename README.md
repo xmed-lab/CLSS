@@ -5,7 +5,7 @@
 
 This is the official implementation of GCLSS (Generalized CLSS) and CLSS (NeurIPS 2023 ["Semi-Supervised Contrastive Learning for Deep Regression with Ordinal Rankings from Spectral Seriation"](https://openreview.net/forum?id=ij3svnPLzG)).
 
-![CLSS](neurips-semireg-23.png)
+![GCLSS](GCLSS.png)
 
 <br />
 <br />
