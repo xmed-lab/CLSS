@@ -10,6 +10,14 @@ This is the official implementation of GCLSS (Generalized CLSS) and CLSS (NeurIP
 <br />
 <br />
 
+## Project Description
+In this series of works, we have extended contrastive regression methods to allow both labeled and unlabeled data to be used in the semi-supervised setting, thereby reducing the dependence on costly annotations. 
+* Particularly we construct the feature similarity matrix with both labeled and unlabeled samples in a mini-batch to reflect inter-sample relationships, and an accurate ordinal ranking of involved unlabeled samples can be recovered through spectral seriation algorithms.
+* Labeled samples provides the regularization of the ordinal ranking with guidance from the ground-truth label information, making the ranking more reliable.
+* We further utilize the dynamic programming algorithm to select robust features for the matrix construction.
+* The recovered ordinal relationship is then used for contrastive learning on unlabeled samples, and we thus allow more data to be used for feature representation learning.
+* We provide theoretical guarantees and empirical verification through experiments on various datasets, demonstrating that our method can surpass existing state-of-the-art semi-supervised deep regression methods.
+
 
 ## Implementation on operator learning, age estimation, and brain-age estimation
 
