@@ -1,9 +1,9 @@
 
-# Semi-Supervised Contrastive Learning for Deep Regression with Ordinal Rankings from Spectral Seriation
+# Contrastive Learning for Semi-Supervised Deep Regression with Generalized Ordinal Rankings from Spectral Seriation
 
 
 
-This is the implementation of CLSS for the paper accepted in NeurIPS 2023 ["Semi-Supervised Contrastive Learning for Deep Regression with Ordinal Rankings from Spectral Seriation"](https://openreview.net/forum?id=ij3svnPLzG).
+This is the official implementation of GCLSS (Generalized CLSS) and CLSS (NeurIPS 2023 ["Semi-Supervised Contrastive Learning for Deep Regression with Ordinal Rankings from Spectral Seriation"](https://openreview.net/forum?id=ij3svnPLzG)).
 
 ![CLSS](neurips-semireg-23.png)
 
@@ -26,7 +26,7 @@ Links are also available in the folders for the individual tasks.
 
 
 ## Notes
-* Contact: DAI Weihang (wdai03@gmail.com)
+* Contact: WANG Ce (wangc79@mail.sysu.edu.cn) and DAI Weihang (wdai03@gmail.com)
 <br />
 <br />
 
