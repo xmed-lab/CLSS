@@ -218,7 +218,6 @@ def run(
 
 
     mean, std = utils.get_mean_and_std(datasets.brt.Echo(root=data_dir, split="train")) # We can use whole dataset to get mean std, because not label dependent
-    print("mean std", mean, std)
 
 
     kwargs = {"target_type": ['ground_truth'],
@@ -675,8 +674,6 @@ def run_epoch(model,
                     test_values_curr_epoch.append(test_value.detach().cpu().numpy())
                     if w_ctrulb_1 > 0:
                         # loss_ulb_1 = ulb_rank_prdlb(all_output_unlb_0_pred_0, lambda_val, pred_inp=ft_rank)
-                        print(output_ul_feat_memory[0].shape, output_ul_feat_memory[1].shape, output_l_feat_memory[0].shape, output_l_feat_memory[1].shape)
-                        print(outcome.shape)
                         loss_ulb_1_0 = ulb_rank_prdlb_cps(output_ul_memory[0], r_value, lambda_val, pred_inp=ft_rank, samples = samples)
                         loss_ulb_1_1 = ulb_rank_prdlb_cps(output_ul_memory[1], r_value, lambda_val, pred_inp=ft_rank, samples = samples)
                         loss_ulb_1 = loss_ulb_1_0 + loss_ulb_1_1
