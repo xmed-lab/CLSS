@@ -69,6 +69,12 @@ Links are also available in the folders for the individual tasks.
 
   ![GCLSS](/docs/synthetic.png)
 
+  AgeDB-DIR and UTKFace datasets results
+
+  ![GCLSS](/docs/AgeDB-DIR.png)
+
+  ![GCLSS](/docs/UTKFace.png)
+
 
 
 ## Notes
