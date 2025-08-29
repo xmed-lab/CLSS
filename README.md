@@ -46,6 +46,7 @@ Links are also available in the folders for the individual tasks.
 ### Usage
 
 - Environment
+  
   create a new environment 
 
   `conda create -n gclss python=3.9`
@@ -55,9 +56,13 @@ Links are also available in the folders for the individual tasks.
   `pip install -r requirements.txt`
   
 - Train and Evaluation
+  
   Please run scripts in each folder with corresponding instructions.
   
-- Results
+- Experimental results
+
+  IXI results
+  ![GCLSS](/docs/GCLSS.png)
 
 
 
