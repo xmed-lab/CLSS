@@ -15,7 +15,7 @@ Run scripts for GCLSS is provided in train_test.sh with our default hyper-parame
 
 ## Pretrained models
 
-A sample checkpoint using 1/5 labeled data is provided at [GCLSS](https://drive.google.com/drive/folders/1K03i8NkqHscXiZG4sGNsRjvCuQ9zS1WV?usp=sharing) 
+A sample checkpoint using 1/30 labeled data is provided at [GCLSS](https://drive.google.com/drive/folders/1K03i8NkqHscXiZG4sGNsRjvCuQ9zS1WV?usp=sharing) 
 
 
 
