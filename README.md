@@ -62,7 +62,20 @@ Links are also available in the folders for the individual tasks.
 - Experimental results
 
   IXI results
-  ![GCLSS](/docs/GCLSS.png)
+
+  ![GCLSS](/docs/IXI.png)
+
+  Synthetic dataset results
+
+  ![GCLSS](/docs/synthetic.png)
+
+  AgeDB-DIR results
+
+  ![GCLSS](/docs/AgeDB-DIR.png)
+
+  UTKFace results
+
+  ![GCLSS](/docs/UTKFace.png)
 
 
 
