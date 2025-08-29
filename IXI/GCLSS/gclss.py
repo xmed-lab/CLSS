@@ -37,7 +37,7 @@ from torch.distributions.normal import Normal
 
 @click.command("vol_reg_cmpl")
 # @click.option("--data_dir", type=click.Path(exists=True, file_okay=False), default="/home/wdaiaj/projects/datasources/IXI_brain_root")
-@click.option("--data_dir", type=click.Path(exists=True, file_okay=False), default="/home/eecewang/DR-project/brainage_estimation/BRAIN")
+@click.option("--data_dir", type=click.Path(exists=True, file_okay=False), default="/data1/cewang/Code/pami/GCLSS/brainage_estimation/BRAIN")
 @click.option("--output", type=click.Path(file_okay=False), default=None)
 @click.option("--task", type=str, default="age")
 @click.option("--model_name", type=click.Choice(['mc3_18', 'r2plus1d_18', 'r3d_18', 'r2plus1d_18_ncor']),
@@ -174,7 +174,7 @@ def run(
 
     shutil.copytree("datasets", os.path.join(output, "echonet_{}".format(bkup_tmstmp), "datasets"))
     shutil.copytree("models", os.path.join(output, "echonet_{}".format(bkup_tmstmp), "models"))
-    shutil.copy("vol_reg_oedNP_semi_ulbsep_ranksim_b2.py", os.path.join(output, "echonet_{}".format(bkup_tmstmp), "vol_reg_oedNP_semi_ulbsep_ranksim.py"))
+    shutil.copy("gclss.py", os.path.join(output, "echonet_{}".format(bkup_tmstmp), "gclss.py"))
 
     # Set device for computations
     if device is None:
