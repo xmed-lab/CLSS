@@ -26,8 +26,20 @@ Implementations for the three tasks (a synthetic dataset, and two real-world dat
 
 ## Datasets and pre-trained weights
 
-Required files are shared at:
-https://hkustconnect-my.sharepoint.com/:f:/g/personal/wdaiaj_connect_ust_hk/Eu_ZWAv3ZCNHvNl4U24F-7sBnr9Ur57IWtbBHTnyIOGmdQ?e=VRNVGb 
+### Datasets
+We have employed four datasets to verigy our model and alongside sota methods, including IXI, AgeDB-DIR, UTKFace, and BVCC dataset.
+
+The IXI dataset can be downloaded at https://brain-development.org/ixi-dataset/;
+
+The AgeDB-DIR dataset can be downloaded at https://ibug.doc.ic.ac.uk/resources/agedb/;
+
+The UTKFace dataset can be downloaded at https://susanqq.github.io/UTKFace/;
+
+The BVCC dataset can be downloaded at https://zenodo.org/records/6572573.
+
+The previous required files with CLSS models are shared at [CLSS models](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wdaiaj_connect_ust_hk/Eu_ZWAv3ZCNHvNl4U24F-7sBnr9Ur57IWtbBHTnyIOGmdQ?e=VRNVGb)
+
+The required files with GCLSS models are also shared at [GCLSS]
 
 Links are also available in the folders for the individual tasks.
 
