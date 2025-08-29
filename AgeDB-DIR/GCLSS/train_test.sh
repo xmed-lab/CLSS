@@ -1,0 +1,1 @@
+python3 gclss.py --run_test --quick_test --batch_size=32 --batch_size_two=8 --output=output/clsspppp/1_30/testtest --num_epochs=30 --reduced_set --rd_label=407 --rd_unlabel=0 --allsplt --w_cps=0 --ssl_mult=6 --val_samp=1 --lr=0.0005 --seed=1 --w_ctr=1 --w_ctrulb_0=0.05 --w_ctrulb_1=0.01 --lambda_val=2
