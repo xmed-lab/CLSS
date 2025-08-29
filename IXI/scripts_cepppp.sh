@@ -1,1 +1,0 @@
-python3 gclss.py --run_test --quick_test --batch_size=16 --batch_size_two=8 --output=output/clsspppp/1_5/240412_odeNP_wctr1_wct0u5e2_wct1u01e2_lmb2_b8_lb20pc_lr1e3_s1 --num_epochs=30 --reduced_set --rd_label=84 --rd_unlabel=0 --allsplt --w_cps=0 --ssl_mult=5 --val_samp=1 --lr=0.001 --seed=1 --w_ctr=1 --w_ctrulb_0=0.05 --w_ctrulb_1=0.01 --lambda_val=2
