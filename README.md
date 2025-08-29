@@ -46,7 +46,16 @@ Links are also available in the folders for the individual tasks.
 ### Usage
 
 - Environment
+  create a new environment 
+
+  `conda create -n gclss python=3.9`
+
+  and install with the requirements.txt:
+
+  `pip install -r requirements.txt`
+  
 - Train and Evaluation
+  Please run scripts in each folder with corresponding instructions.
   
 - Results
 
