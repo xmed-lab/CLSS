@@ -34,7 +34,7 @@ from torch.distributions.normal import Normal
 
 @click.command("vol_reg_cmpl")
 # @click.option("--data_dir", type=click.Path(exists=True, file_okay=False), default="/home/wdaiaj/projects/datasources/AgeDB_DIR")
-@click.option("--data_dir", type=click.Path(exists=True, file_okay=False), default="/data1/cewang/Code/pami/GCLSS/age_estimation/AgeDB_DIR")
+@click.option("--data_dir", type=click.Path(exists=True, file_okay=False), default="/data1/cewang/Code/GCLSS/age_estimation/AgeDB_DIR")
 @click.option("--output", type=click.Path(file_okay=False), default=None)
 @click.option("--task", type=str, default="age")
 @click.option("--model_name", type=click.Choice(['mc3_18', 'r2plus1d_18', 'r3d_18', 'r2plus1d_18_ncor']),
