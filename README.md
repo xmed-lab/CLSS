@@ -12,11 +12,11 @@ This is the official implementation of GCLSS (Generalized CLSS) and CLSS (NeurIP
 
 ## Project Description
 In this series of works, we have extended contrastive regression methods to allow both labeled and unlabeled data to be used in the semi-supervised setting, thereby reducing the dependence on costly annotations:
-* We construct the feature similarity matrix with both labeled and unlabeled samples to reflect inter-sample relationships, and an accurate ordinal ranking can be recovered through spectral seriation algorithms;
-* Labeled samples provides the regularization with guidance from the ground-truth label information, making the ranking more reliable;
-* We utilize the dynamic programming algorithm to select robust features;
-* The recovered ordinal relationship is used for contrastive learning on unlabeled samples;
-* We provide theoretical guarantees and empirical verification through experiments on various datasets.
+- We construct the feature similarity matrix with both labeled and unlabeled samples to reflect inter-sample relationships, and an accurate ordinal ranking can be recovered through spectral seriation algorithms;
+- Labeled samples provides the regularization with guidance from the ground-truth label information, making the ranking more reliable;
+- We utilize the dynamic programming algorithm to select robust features;
+- The recovered ordinal relationship is used for contrastive learning on unlabeled samples;
+- We provide theoretical guarantees and empirical verification through experiments on various datasets.
 
 
 ## Implementation on operator learning, age estimation, and brain-age estimation
@@ -24,9 +24,9 @@ In this series of works, we have extended contrastive regression methods to allo
 Implementations for the three tasks (a synthetic dataset, and two real-world datasets (AgeDB-DIR, UTKFace)) are provided in the separate folders. 
 
 
-## Datasets and pre-trained weights
+## Implementation
 
-### Datasets
+### Datasets and pre-trained models
 We have employed four datasets to verigy our model and alongside sota methods, including IXI, AgeDB-DIR, UTKFace, and BVCC dataset.
 
 The IXI dataset can be downloaded at https://brain-development.org/ixi-dataset/;
@@ -42,6 +42,13 @@ The previous required files with CLSS models are shared at [CLSS models](https:/
 The required files with GCLSS models are also shared at [GCLSS]
 
 Links are also available in the folders for the individual tasks.
+
+### Usage
+
+- Environment
+- Train and Evaluation
+  
+- Results
 
 
 
