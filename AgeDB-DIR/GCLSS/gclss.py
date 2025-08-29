@@ -172,7 +172,7 @@ def run(
 
     shutil.copytree("datasets", os.path.join(output, "echonet_{}".format(bkup_tmstmp), "datasets"))
     shutil.copytree("models", os.path.join(output, "echonet_{}".format(bkup_tmstmp), "models"))
-    shutil.copy("vol_reg_oedNP_semi_ulbsep_ranksim_b2.py", os.path.join(output, "echonet_{}".format(bkup_tmstmp), "vol_reg_oedNP_semi_ulbsep_ranksim_b2.py"))
+    shutil.copy("gclss.py", os.path.join(output, "echonet_{}".format(bkup_tmstmp), "gclss.py"))
 
     # Set device for computations
     if device is None:
