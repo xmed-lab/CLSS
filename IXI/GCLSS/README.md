@@ -1,7 +1,7 @@
 
 ## Experiments on the IXI dataset (T1 images) for brain age estimation
 
-This is the code for running the experiments for the brain age estimation from MRI scans task. 
+The code is for training and testing performance of GCLSS on the IXI dataset for the brain age estimation from MRI scans task
 
 ### Data
 
@@ -10,13 +10,14 @@ The dataset can be downloaded from: https://brain-development.org/ixi-dataset/
 
 ## Running
 
-Run scripts for CPS, UCVME, and CLSS are provided in script_cps.sh, scripts_ucvme.sh and scripts_clss.sh respectively. Runs using multiple seeds are recommended as convergence is more difficult for this task. 
+Run scripts for GCLSS is provided in train_test.sh with our default hyper-parameters
 
 
 ## Pretrained models
 
-A sample checkpoint using 50% labeled data is provided: 
-https://hkustconnect-my.sharepoint.com/:f:/g/personal/wdaiaj_connect_ust_hk/EvoQ51EMHnZHpKO_26ovh_ABxLyhwASWqZkynSSfkiTskQ?e=xodVX0 
+A sample checkpoint using 1/20 labeled data is provided at [GCLSS]() 
+
+
 
 
 
