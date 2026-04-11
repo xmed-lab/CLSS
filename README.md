@@ -37,7 +37,7 @@ The UTKFace dataset can be downloaded at https://susanqq.github.io/UTKFace/;
 
 The BVCC dataset can be downloaded at https://zenodo.org/records/6572573.
 
-The previous required files with CLSS models are shared at [CLSS models](https://hkustconnect-my.sharepoint.com/:f:/g/personal/wdaiaj_connect_ust_hk/Eu_ZWAv3ZCNHvNl4U24F-7sBnr9Ur57IWtbBHTnyIOGmdQ?e=VRNVGb)
+The previous required files with CLSS models are shared at [CLSS models](https://drive.google.com/drive/folders/1uye15KB-Gvlmv2pK4x-EsURa_KFQBQ9B?usp=drive_link)
 
 The required files with GCLSS models are also shared at [GCLSS models](https://drive.google.com/drive/folders/1K03i8NkqHscXiZG4sGNsRjvCuQ9zS1WV?usp=sharing)
 
